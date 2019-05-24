@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>yukaLog</title>
+        <!-- googlefont -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Alice|Open+Sans|Yellowtail&display=swap"
+            rel="stylesheet"
+        />
+        <!-- fontawesome -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+            crossorigin="anonymous"
+        />
+        <!-- bootstrap -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <header>
+        <section
+            class="title-section d-flex justify-content-between p-3 pr-5 pl-5"
+        >
+            <div class="sns-container d-flex justify-content-between align-center">
+                <i class="fab fa-github mr-3"></i>
+                <i class="fab fa-linkedin-in mr-3"></i>
+                <i class="fab fa-twitter mr-3"></i>
+                <i class="fab fa-pinterest"></i>
+            </div>
+            <h1 class="top-title yellowtail display-1">
+                yukaLog
+            </h1>
+            <div class="align-center">
+            <i class="fas fa-bars"></i>
+            </div>
+        </section>
+        <nav class="menu-nav">
+            <ul class="d-flex justify-content-center m-0">
+                <li class="text-uppercase p-3 mr-2">home</li>
+                <li class="text-uppercase d-flex p-3 mr-2">
+                    <div class="dropdown open">
+                        <button class="btn dropdown-toggle p-0 text-uppercase" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            categories
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#!">Separated link</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#!">Action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#!">Another action</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="text-uppercase p-3 mr-2">portfolio</li>
+                <li class="text-uppercase p-3 mr-2">contact</li>
+            </ul>
+        </nav>
+        </header>
+        <section class="top-image-section relative">
+            <div class="centralize">
+                <h2
+                    class="top-image-section-title text-capitalize white font-weight-bold"
+                >
+                    latest blog title
+                </h2>
+                <p class="top-image-section-date white">May 20, 2019</p>
+            </div>
+        </section>
+        <section class="main-body-section d-flex p-5 mt-5 mb-5">
+            <section class="latest-blogs-section mr-5">
+                <div class="card mb-5 border-0">
+                    <img
+                        class="card-img-top"
+                        src="./src/yukalog-pic2.jpg"
+                        alt="Card image cap"
+                    />
+                    <div class="card-body">
+                        <h4 class="text-center alice display-4 card-title">Card title</h4>
+                        <h6 class="card-subtitle mb-2 alice text-center orange">
+                            May 20, 2019
+                        </h6>
+                        <p class="latest-blog-description card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                        </p>
+                        <a href="#!" class="orange text-uppercase font-weight-bold">read more</a>
+                    </div>
+                </div>
+
+                <h6 class="card-subtitle mb-2 text-muted text-capitalize text-center">
+                    other article
+                </h6>
+
+                <div class="container mt-5">
+                    <div class="row card-deck">
+                        <div class="card card-odd col-md-6 col-sm-12 border-0">
+                            <img
+                                class="card-img-top"
+                                src="./src/yukalog-pic2.jpg"
+                                alt="Card image cap"
+                            />
+                            <div class="card-body">
+                                <h4 class="text-center alice card-title">Card title</h4>
+                                <h6 class="card-subtitle mb-2 alice text-center orange">
+                                    Apr 30, 2019
+                                </h6>
+                                <p class="card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                                <a href="#!" class="orange text-uppercase font-weight-bold">read more</a>
+                            </div>
+                        </div>
+                        <div class="card card-even col-md-6 col-sm-12 border-0">
+                            <img
+                                class="card-img-top"
+                                src="./src/yukalog-pic2.jpg"
+                                alt="Card image cap"
+                            />
+                            <div class="card-body">
+                                <h4 class="text-center alice card-title">Card title</h4>
+                                <h6 class="card-subtitle mb-2 alice text-center orange">
+                                    Apr 5, 2019
+                                </h6>
+                                <p class="card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                                <a href="#!" class="orange text-uppercase font-weight-bold">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sidebar-section w-75">
+                <div class="card p-5 mb-5">
+                    <h4 class="card-title alice text-center text-uppercase">about me</h4>
+                    <img
+                        class="card-img-top"
+                        src="./src/yukalog-pic2.jpg"
+                        alt="Card image cap"
+                    />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+                    </div>
+                </div>
+                <div class="card p-5 mb-5">
+                    <h3 class="card-header text-center twitter-header alice">
+                        twitter
+                    </h3>
+                    <div class="card-body">
+
+                    </div>
+                </div>
+                <div class="card p-5 mb-5">
+                    <div class="card-body">
+                        <h4 class="card-title alice text-center text-uppercase">follow me</h4>
+                        <p class="card-text d-flex justify-content-between">
+                            <i class="fab fa-github"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-pinterest"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title alice text-center text-uppercase">categories</h4>
+                        <p class="card-text">
+                            <ul>
+                                <li>aa</li>
+                                <li>bb</li>
+                                <li>cc</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <footer>
+            <p class="text-center white m-0 p-3">Copyright&copy; 2019 yukaLog All right reserved</p>
+        </footer>
+    </body>
+</html>

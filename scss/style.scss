@@ -1,0 +1,77 @@
+@import "variable";
+
+.yellowtail {
+    font-family: "Yellowtail", cursive;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+}
+
+.alice {
+    font-family: "Alice", serif;
+}
+
+li {
+    list-style: none;
+}
+.relative {
+    position: relative;
+}
+
+.centralize {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.white {
+    color: white;
+}
+.orange {
+    color: $orange;
+}
+
+.align-center {
+    align-self: center;
+}
+i {
+    font-size: 1.7em;
+}
+
+// =====================index.html=====================
+
+.top-image-section {
+    height: 60vh;
+    background-image: url("../src/yukalog-pic1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.menu-nav {
+    border-top: 1px solid $light-grey;
+    border-bottom: 1px solid $light-grey;
+}
+
+.latest-blog-description {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+.card-odd {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.card-even {
+    margin-right: 0;
+    padding-right: 0;
+}
+.twitter-header {
+    background-color: white !important;
+}
+
+footer {
+    background-color: $dark-grey;
+}
