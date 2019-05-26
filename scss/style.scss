@@ -41,6 +41,22 @@ i {
 }
 
 // =====================index.html=====================
+.slide-nav {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+    height: 100vh;
+    background-color: white;
+    z-index: 100;
+    transition: display 0.5s ease-in;
+    -webkit-transition: display 0.5s ease-in;
+}
+
+.slide-nav .active {
+    display: block;
+}
 
 .top-image-section {
     height: 60vh;

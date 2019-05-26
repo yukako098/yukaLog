@@ -41,7 +41,7 @@
                 yukaLog
             </h1>
             <div class="align-center">
-            <i class="fas fa-bars"></i>
+            <i onclick="showSlideNav()" class="fas fa-bars"></i>
             </div>
         </section>
         <nav class="menu-nav">
@@ -65,6 +65,9 @@
                 <li class="text-uppercase p-3 mr-2">contact</li>
             </ul>
         </nav>
+        <div id="slide-nav" class="section p-5 slide-nav">
+            <p class="text-right"><i onclick="showSlideNav()" class="fas fa-times"></i></p>
+        </div>
         </header>
         <section class="top-image-section relative">
             <div class="centralize">
@@ -195,5 +198,6 @@
         <footer>
             <p class="text-center white m-0 p-3">Copyright&copy; 2019 yukaLog All right reserved</p>
         </footer>
+        <script src="./js/mainStyle.js"></script>
     </body>
 </html>
