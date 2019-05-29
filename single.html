@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>yukaLog</title>
+  <!-- googlefont -->
+  <link href="https://fonts.googleapis.com/css?family=Alice|Open+Sans|Yellowtail&display=swap" rel="stylesheet" />
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div id="slide-nav" class="section p-5 slide-nav">
+    <p class="text-right pt-3"><i onclick="showSlideNav()" class="fas fa-times"></i></p>
+    <ul class="p-0">
+      <li class="text-uppercase p-3 mr-2">home</li>
+      <li class="text-uppercase d-flex p-3 mr-2">
+        <div class="dropdown open">
+          <button class="btn dropdown-toggle p-0 text-uppercase" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            categories
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#!">Separated link</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#!">Action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#!">Another action</a>
+          </div>
+        </div>
+      </li>
+      <li class="text-uppercase p-3 mr-2">portfolio</li>
+      <li class="text-uppercase p-3 mr-2">contact</li>
+    </ul>
+    <div class="card p-3 mb-5">
+      <h4 class="card-title alice text-center text-uppercase">about me</h4>
+      <img class="card-img-top" src="./src/yukalog-pic2.jpg" alt="Card image cap" />
+      <div class="card-body">
+        <p class="card-text">
+                                                Some quick example text to build on the card title
+                                                and make up the bulk of the card's content.
+                                            </p>
+      </div>
+    </div>
+    <div class="card p-3 mb-5">
+      <div class="card-body">
+        <h4 class="card-title alice text-center text-uppercase">follow me</h4>
+        <p class="card-text d-flex justify-content-between">
+                                <i class="fab fa-github"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-pinterest"></i>
+                            </p>
+      </div>
+    </div>
+  </div>
+  <div id="black-bg-filter" class="black-bg-filter w-100 h-100"></div>
+  <header>
+    <section class="title-section d-flex justify-content-between p-3 pr-5 pl-5">
+      <div class="sns-container d-flex justify-content-between align-center">
+        <i class="fab fa-github mr-3"></i>
+        <i class="fab fa-linkedin-in mr-3"></i>
+        <i class="fab fa-twitter mr-3"></i>
+        <i class="fab fa-pinterest"></i>
+      </div>
+      <h1 class="top-title yellowtail display-1">
+                yukaLog
+            </h1>
+      <div class="align-center">
+        <i onclick="showSlideNav()" class="fas fa-bars"></i>
+      </div>
+    </section>
+    <nav class="menu-nav">
+      <ul class="d-flex justify-content-center m-0">
+        <li class="text-uppercase p-3 mr-2">home</li>
+        <li class="text-uppercase d-flex p-3 mr-2">
+          <div class="dropdown open">
+            <button class="btn dropdown-toggle p-0 text-uppercase" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              categories
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#!">Separated link</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#!">Action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#!">Another action</a>
+            </div>
+          </div>
+        </li>
+        <li class="text-uppercase p-3 mr-2">portfolio</li>
+        <li class="text-uppercase p-3 mr-2">contact</li>
+      </ul>
+    </nav>
+  </header>
+  <section class="top-image-section relative">
+    <div class="centralize">
+      <h2 class="top-image-section-title text-capitalize white font-weight-bold">
+                    latest blog title
+                </h2>
+      <p class="top-image-section-date white">May 20, 2019</p>
+    </div>
+  </section>
+  <section id="main-body-section" class="main-body-section d-flex p-5 mt-5 mb-5">
+    <section class="latest-blogs-section mr-5">
+      <div class="card mb-5 border-0">
+
+        <div class="card-body">
+          <h4 class="text-center alice display-4 card-title">Card title</h4>
+          <h6 class="card-subtitle mb-2 alice text-center orange">
+              May 20, 2019
+          </h6>
+          <p class="latest-blog-description card-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+          </p>
+
+        </div>
+        <img class="card-img-top" src="./src/yukalog-pic2.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <p class="latest-blog-description card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            </p>
+        </div>
+        <div class="tags_and_share d-flex justify-content-between">
+          <div class="tags">
+            <i class="fas fa-tags"></i>
+            <div class="btn open-sans text-uppercase">wordpress</div>
+            <div class="btn open-sans text-uppercase">aws</div>
+            <div class="btn open-sans text-uppercase">plugin</div>
+          </div>
+          <div class="share">
+            <div class="btn">
+              <i class="fas fa-share"></i>
+              <span class="text-uppercase open-sans">share</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h6 class="card-subtitle mb-2 text-muted text-capitalize text-center">
+                          you might also like
+                      </h6>
+
+      <div class="card-deck">
+        <div class="card mt-5 border-0">
+          <img class="card-img-top" src="./src/yukalog-pic2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          </div>
+        </div>
+        <div class="card mt-5 border-0">
+          <img class="card-img-top" src="./src/yukalog-pic2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          </div>
+        </div>
+          <div class="card mt-5 border-0">
+            <img class="card-img-top" src="./src/yukalog-pic2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="sidebar-section w-75">
+      <div class="card p-5 mb-5">
+        <h4 class="card-title alice text-center text-uppercase">about me</h4>
+        <img class="card-img-top" src="./src/yukalog-pic2.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+        </div>
+      </div>
+      <div class="card p-5 mb-5">
+        <h3 class="card-header text-center twitter-header alice">
+                        twitter
+                    </h3>
+        <div class="card-body">
+          <a class="twitter-timeline" data-height="600" href="https://twitter.com/098front?ref_src=twsrc%5Etfw">Tweets by 098front</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+      <div class="card p-5 mb-5">
+        <div class="card-body">
+          <h4 class="card-title alice text-center text-uppercase">follow me</h4>
+          <p class="card-text d-flex justify-content-between">
+              <i class="fab fa-github"></i>
+              <i class="fab fa-linkedin-in"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-pinterest"></i>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title alice text-center text-uppercase">categories</h4>
+          <p class="card-text">
+              <ul>
+                  <li>aa</li>
+                  <li>bb</li>
+                  <li>cc</li>
+              </ul>
+          </p>
+        </div>
+      </div>
+    </section>
+  </section>
+  <footer id="footer">
+    <p class="text-center white m-0 p-3">Copyright&copy; 2019 yukaLog All right reserved</p>
+  </footer>
+  <script src="./js/mainStyle.js"></script>
+  <!-- bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
