@@ -27,6 +27,50 @@
         <link rel="stylesheet" href="./css/style.css" />
     </head>
     <body>
+        <div id="slide-nav" class="section p-5 slide-nav">
+            <p class="text-right pt-3"><i onclick="showSlideNav()" class="fas fa-times"></i></p>
+            <ul class="m-0 p-0">
+                <li class="text-uppercase p-3 mr-2">home</li>
+                <li class="text-uppercase d-flex p-3 mr-2">
+                    <div class="dropdown open">
+                        <button class="btn dropdown-toggle p-0 text-uppercase" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            categories
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#!">Separated link</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#!">Action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#!">Another action</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="text-uppercase p-3 mr-2">portfolio</li>
+                <li class="text-uppercase p-3 mr-2">contact</li>
+            </ul>
+            <div class="card p-3 mb-5">
+                <h4 class="card-title alice text-center text-uppercase">about me</h4>
+                <img class="card-img-top" src="./src/yukalog-pic2.jpg" alt="Card image cap" />
+                <div class="card-body">
+                    <p class="card-text">
+                                                Some quick example text to build on the card title
+                                                and make up the bulk of the card's content.
+                                            </p>
+                </div>
+            </div>
+            <div class="card p-3 mb-5">
+                <div class="card-body">
+                    <h4 class="card-title alice text-center text-uppercase">follow me</h4>
+                    <p class="card-text d-flex justify-content-between">
+                                <i class="fab fa-github"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-pinterest"></i>
+                            </p>
+                </div>
+            </div>
+        </div>
+        <div id="black-bg-filter" class="black-bg-filter w-100 h-100"></div>
         <header>
         <section
             class="title-section d-flex justify-content-between p-3 pr-5 pl-5"
@@ -65,9 +109,6 @@
                 <li class="text-uppercase p-3 mr-2">contact</li>
             </ul>
         </nav>
-        <div id="slide-nav" class="section p-5 slide-nav">
-            <p class="text-right"><i onclick="showSlideNav()" class="fas fa-times"></i></p>
-        </div>
         </header>
         <section class="top-image-section relative">
             <div class="centralize">
@@ -79,7 +120,7 @@
                 <p class="top-image-section-date white">May 20, 2019</p>
             </div>
         </section>
-        <section class="main-body-section d-flex p-5 mt-5 mb-5">
+        <section id="main-body-section" class="main-body-section d-flex p-5 mt-5 mb-5">
             <section class="latest-blogs-section mr-5">
                 <div class="card mb-5 border-0">
                     <img
@@ -195,7 +236,7 @@
                 </div>
             </section>
         </section>
-        <footer>
+        <footer id="footer">
             <p class="text-center white m-0 p-3">Copyright&copy; 2019 yukaLog All right reserved</p>
         </footer>
         <script src="./js/mainStyle.js"></script>

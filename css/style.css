@@ -47,16 +47,27 @@ i {
   position: absolute;
   top: 0;
   right: 0;
-  width: 25%;
+  width: 0%;
   height: 100vh;
   background-color: white;
   z-index: 100;
-  transition: display 0.5s ease-in;
-  -webkit-transition: display 0.5s ease-in;
+  transition: width 0.5s ease-in;
+  -webkit-transition: width 0.5s ease-in;
+  overflow: auto;
 }
 
 .slide-nav .active {
   display: block;
+}
+
+.black-bg-filter {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000000ab;
+  z-index: 10;
+  overflow: hidden;
 }
 
 .top-image-section {
